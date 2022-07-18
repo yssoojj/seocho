@@ -1,0 +1,102 @@
+/*---------- detail(상세페이지) ----------*/
+
+#detail .container {
+    text-align: center;
+}
+
+#detail .container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--sub-color01);
+    color: var(--bg-color03);
+}
+
+#detail main figure img {
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+
+#detail main .info {
+    background-color: #f4f4f4;
+    margin: 20px;
+    margin-top: 0;
+    padding: 20px 10px;
+}
+
+#detail main .info .date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+}
+
+#detail main .info .date span {
+    background: #fff;
+    border: 1px solid #7FC241;
+    border-radius: 16px;
+    padding: 2px 6px;
+    margin-right: 12px;
+}
+
+#detail main .info table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    border-radius: 16px;
+    background-color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#detail main .info table .info1 {
+    border-radius: 16px 0px 0px 0px;
+    text-align: center;
+}
+
+#detail main .info table .info2 {
+    border-radius: 0px 0px 0px 16px;
+    text-align: center;
+}
+
+#detail main .info table th {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #7FC241;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+#detail main .info table td {
+    padding: 15px 31px;
+}
+
+#detail main .info .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#detail main .call-btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 9px 15px;
+    background: #7FC241;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+#detail main .call-btn a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}

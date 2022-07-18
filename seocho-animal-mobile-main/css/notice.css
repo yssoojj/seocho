@@ -1,0 +1,125 @@
+/*--------------------------notice----------------------------*/
+/*입양공고*/
+
+#notice .container {
+    text-align: center;
+}
+
+#notice .container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--sub-color01);
+    color: var(--bg-color03);
+}
+
+#notice .container p {
+    padding-top: 15px;
+}
+#notice .container a {
+    color: var(--text-color);
+}
+#notice .container a:nth-child(3) {
+    color: var(--sub-color01);
+    font-weight: 700;
+}
+#notice .container span {
+    color: var(--bg-color01);
+}
+
+/*보드메뉴*/
+#notice .board ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--bg-color02);
+    margin: 20px;
+    padding: 8px 20px;
+/* outline: 1px solid red; */
+}
+
+#notice .board ul li {
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 8px;
+    /* outline: 1px solid green; */
+}
+
+#notice .board ul li a {
+    color: var(--text-color);
+    /* outline: 1px solid blue; */
+}
+
+#notice .board ul li:first-child {
+    background-color: var(--sub-color01);
+}
+
+#notice .board ul li:first-child a {
+    color: var(--bg-color03);
+    font-weight: 700;
+}
+
+#notice .board ul a:hover {
+    color: var(--sub-color01);
+}
+
+/*강아지 이미지*/
+#notice .puppies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 30px;
+    gap: 15px;
+    /* outline: 1px solid red; */
+}
+
+#notice .puppy {
+    width: calc(50% - 10px);
+    /* outline: 1px solid green; */
+}
+
+#notice .puppy img {
+    width: 100%;
+    /* outline: 1px solid blue; */
+}
+
+#notice .puppy .puppy-state {
+    text-align: center;
+    color: var(--sub-color01);
+    font-weight: 700;
+    /* outline: 1px solid orange; */
+}
+
+/*페이지버튼*/
+#button-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+#button-page .notice-page-btn {
+    width: 30px;
+    height: 30px;
+    background: var(--bg-color03);
+    border: 1px solid var(--sub-color01);
+}
+
+#button-page .notice-page-btn a {
+    color: var(--text-color);
+}
+
+#button-page .notice-page-btn:first-child {
+    background: var(--sub-color01);
+}
+
+#button-page .notice-page-btn:first-child a {
+    color: var(--bg-color03);
+}

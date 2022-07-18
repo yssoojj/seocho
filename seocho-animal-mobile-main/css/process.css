@@ -1,0 +1,71 @@
+/* --------------------process------------------------- */
+#process .container {
+    text-align: center;
+}
+
+/* h1(탭 제목) CSS 스타일 모든 페이지 동일하게 적용 (bg-color만 변경) */
+#process .container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--main-color);
+    color: var(--bg-color03);
+}
+
+#process .container p {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+#process .container a {
+    color: var(--text-color);
+}
+#process .container a:first-child {
+    color: var(--main-color);
+    font-weight: 700;
+}
+#process .container span {
+    color: var(--bg-color01);
+}
+
+/* main */
+#process main ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* white-space: pre-line; */
+}
+
+#process main ul .bi {
+    font-size: 20px;
+}
+
+#process main ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 280px;
+    height: 64px;
+    text-align: center;
+}
+
+#process main ul li span {
+    font-weight: 700;
+}
+
+#process main ul .pink {
+    border: 1px solid #EF5797;
+}
+
+#process main ul .gray {
+    border: 1px solid #999;
+}
+
+/* hover */
+#process .container p a:hover {
+    color: #EF5797;
+    font-weight: 700;
+}
